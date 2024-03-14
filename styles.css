@@ -1,10 +1,11 @@
-
+/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo do cabeçalho */
 header {
     background-color: #333;
     color: #fff;
@@ -30,7 +31,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-
+/* Estilo do conteúdo principal */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -55,17 +56,11 @@ main {
 .product h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #ffffff;
-    font-family: "Oswald", sans-serif;
-    font-weight: 700;
-    
+    color: #333; /* Cor do texto do título do produto */
 }
 
 .product p {
-    color: #ffffff;
     margin-bottom: 10px;
-    font-family: "Oswald", sans-serif;
-    font-weight: 700;
 }
 
 .product button {
@@ -80,7 +75,7 @@ main {
     background-color: #555;
 }
 
-/* rodapé */
+/* Estilo do rodapé */
 footer {
     background-color: #333;
     color: #fff;
@@ -91,61 +86,9 @@ footer {
     width: 100%;
 }
 
-/* produtos */
-main {
-    padding: 20px;
-}
-
-.product {
-    background-image: url('fundo.png');
-    background-color: #ffffff;
-    width: 300px;
-    margin-bottom: 20px;
-    padding: 20px;
-    text-align: center;
-}
-
-.product {
-    width: 100%;
-}
-
-.product {
-    margin-bottom: 0;
-}
-
-.product + .product {
-    border-top: 1px solid #ccc;
-}
-
-.product img {
-    width: 16%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.product h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.product p {
-    margin-bottom: 10px;
-}
-
-.product button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.product button:hover {
-    background-color: #555;
-}
-
+/* Estilo do fundo */
 body {
-    
+    background-image: url('img/fundo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
