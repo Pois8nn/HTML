@@ -40,6 +40,7 @@ main {
 }
 
 .product {
+    position: relative;
     background-color: #f9f9f9;
     width: 300px;
     margin-bottom: 20px;
@@ -48,8 +49,9 @@ main {
 }
 
 .product img {
-    width: 100%;
+    width: 70%;
     height: auto;
+    margin: 0 auto;
     margin-bottom: 10px;
 }
 
@@ -93,4 +95,20 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center;
+}
+/* Setinha */
+.back-link {
+    position: fixed;
+    top: 32px; 
+    left: 45px; 
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.arrow-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
 }
